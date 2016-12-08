@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="324ff8f1-4452-48d3-abf9-01e7ceb64612" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AlexaCorpStats-deployment.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AlexaCorpStats.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DateScratchpad.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DeployAlexaCorpStats.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/security-notes.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalesBriefing-deployment.zip" afterPath="$PROJECT_DIR$/SalesBriefing-deployment.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DeploySalesBriefing.sh" afterPath="$PROJECT_DIR$/DeploySalesBriefing.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalesBriefing.py" afterPath="$PROJECT_DIR$/SalesBriefing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deployment-notes.txt" afterPath="$PROJECT_DIR$/deployment-notes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/walmart_salesFigures.txt" afterPath="$PROJECT_DIR$/walmart_salesFigures.txt" />
-    </list>
+    <list default="true" id="324ff8f1-4452-48d3-abf9-01e7ceb64612" name="Default" comment="" />
     <ignored path="PowerCo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,18 +23,18 @@
       <file leaf-file-name="deployment-notes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deployment-notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="96" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="96" />
+            <state relative-caret-position="135">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalesBriefing.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SalesBriefing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SalesBriefing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="170" column="22" lean-forward="false" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+            <state relative-caret-position="465">
+              <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,12 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="263" lean-forward="false" selection-start-line="1" selection-start-column="263" selection-end-line="1" selection-end-column="263" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -125,6 +113,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dixonaws &lt;dixonaws@amazon.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -133,7 +126,6 @@
         <option value="$PROJECT_DIR$/IntentSchema.json" />
         <option value="$PROJECT_DIR$/SampleUtterances.txt" />
         <option value="$PROJECT_DIR$/PowerCo Copy.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/PowerCo-old.py" />
         <option value="$PROJECT_DIR$/debugme.py" />
         <option value="$PROJECT_DIR$/PowerCoAPITest.py" />
@@ -149,11 +141,12 @@
         <option value="$PROJECT_DIR$/salesFigures.txt" />
         <option value="$PROJECT_DIR$/message.txt" />
         <option value="$PROJECT_DIR$/AlexaCorpStats.py" />
-        <option value="$PROJECT_DIR$/deployment-notes.txt" />
         <option value="$PROJECT_DIR$/DeployAlexaCorpStats.sh" />
         <option value="$PROJECT_DIR$/walmart_salesFigures.txt" />
         <option value="$PROJECT_DIR$/DeploySalesBriefing.sh" />
         <option value="$PROJECT_DIR$/SalesBriefing.py" />
+        <option value="$PROJECT_DIR$/deployment-notes.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -466,6 +459,14 @@
       <option name="presentableId" value="Default" />
       <updated>1464007227052</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated README">
+      <created>1481213558124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481213558124</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -501,6 +502,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -667,22 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security-notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -699,26 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DeployAlexaCorpStats.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="143" lean-forward="false" selection-start-line="6" selection-start-column="143" selection-end-line="6" selection-end-column="143" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment-notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="96" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="96" />
           <folding />
         </state>
       </provider>
@@ -731,6 +704,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SalesBriefing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DeploySalesBriefing.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -739,11 +728,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalesBriefing.py">
+    <entry file="file://$PROJECT_DIR$/deployment-notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="170" column="22" lean-forward="false" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="263" lean-forward="false" selection-start-line="1" selection-start-column="263" selection-end-line="1" selection-end-column="263" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
