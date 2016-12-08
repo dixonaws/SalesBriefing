@@ -1,4 +1,4 @@
-1. Update AlexaCorpStats.py Python code
+1. Update SalesBriefing.py Python code
 The handler (in Lambda configuration) must be SalesBriefing.lambda_handler
 
 2. Create a deployment package
