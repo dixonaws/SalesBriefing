@@ -5,7 +5,7 @@ import json
 import time
 import boto3
 
-# AlexaCorpStats, v1.0
+# SalesBriefing, v1.0
 
 def lambda_handler(event, context):
     """
@@ -155,8 +155,8 @@ def get_welcome_response():
     obj=s3.Object(bucket, walmart_salesFigures_key)
     sales=obj.get()['Body'].read().decode('utf-8')
 
-    obj = s3.Object(bucket, message_key)
-    message = obj.get()['Body'].read().decode('utf-8')
+    obj=s3.Object(bucket, message_key)
+    message=obj.get()['Body'].read().decode('utf-8')
 
     walmartSales=sales
     targetSales = 589102
@@ -168,11 +168,11 @@ def get_welcome_response():
     usCentralSales=3435676
     usWestSales=3454652
 
-    card_title = "Rubbermaid Sales Briefing"
-    card_content="Retail sales for October 31, 2016:" + "\n"
+    card_title = "AcmeCo Sales Briefing"
+    card_content="Retail sales for December 7, 2016:" + "\n"
     card_content+="1. Walmart: " + (str(walmartSales)).format('n') + "\n"
     card_content += "2. Target: " + str(targetSales) + "\n"
-    card_content += "3. rubbermaid.com: " + str(rubbermaiddotcomSales) + "\n"
+    card_content += "3. acmeco.com: " + str(rubbermaiddotcomSales) + "\n"
     card_content += "4. Home Depot: " + str(homedepotSales) + "\n"
     card_content += "5. Publix: " + str(publixSales) + "\n"
     card_content += "\n"
@@ -181,11 +181,11 @@ def get_welcome_response():
     card_content += "US West: " + str(usWestSales)
 
     speech_output = "<speak>"
-    speech_output+= "<s>Here's your Rubbermaid sales briefing for today, Monday, October 31. <break time=\"1s\"/></s>"
+    speech_output+= "<s>Here's your Ack mee Co sales briefing for today, Thursday, December 8. <break time=\"1s\"/></s>"
     speech_output+="<s>Top three retail sales yesterday: </s>"
     speech_output+="<s>Walmart: " + str(walmartSales) + " dollars.</s>"
     speech_output += "<s>Target: " + str(targetSales) + " dollars.</s>"
-    speech_output += "<s>Rubbermaid.com: " + str(rubbermaiddotcomSales) + " dollars.</s>"
+    speech_output += "<s>ack mee co.com: " + str(rubbermaiddotcomSales) + " dollars.</s>"
     speech_output+="<s>" + message + "</s>"
     speech_output+="</speak>"
 
@@ -201,7 +201,7 @@ def get_welcome_response():
 
 def handle_session_end_request():
     card_title = "Session Ended"
-    speech_output = "Thank you for being a Power Company customer." \
+    speech_output = "Thank you for being an Acme Co customer." \
                     "Have a nice day! "
 
     # Setting this to true ends the session and exits the skill.

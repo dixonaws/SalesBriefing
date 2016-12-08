@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324ff8f1-4452-48d3-abf9-01e7ceb64612" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SalesBriefing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-notes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/walmart_salesFigures.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PowerCo-old.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PowerCo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PowerCo2-deployment.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PowerCo2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PowerCo3-deployment.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PowerCo3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PowerCoAPITest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AlexaCorpStats-deployment.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AlexaCorpStats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DateScratchpad.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DeployAlexaCorpStats.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/security-notes.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalesBriefing-deployment.zip" afterPath="$PROJECT_DIR$/SalesBriefing-deployment.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DeploySalesBriefing.sh" afterPath="$PROJECT_DIR$/DeploySalesBriefing.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalesBriefing.py" afterPath="$PROJECT_DIR$/SalesBriefing.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deployment-notes.txt" afterPath="$PROJECT_DIR$/deployment-notes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/walmart_salesFigures.txt" afterPath="$PROJECT_DIR$/walmart_salesFigures.txt" />
     </list>
     <ignored path="PowerCo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,28 +35,28 @@
       <file leaf-file-name="deployment-notes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deployment-notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="96" lean-forward="false" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
+            <state relative-caret-position="210">
+              <caret line="14" column="96" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="96" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlexaCorpStats.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AlexaCorpStats.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="127" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesBriefing.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SalesBriefing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SalesBriefing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2685">
-              <caret line="184" column="55" lean-forward="false" selection-start-line="184" selection-start-column="55" selection-end-line="184" selection-end-column="55" />
+            <state relative-caret-position="135">
+              <caret line="170" column="22" lean-forward="false" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeploySalesBriefing.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeploySalesBriefing.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -70,6 +68,19 @@
             <state relative-caret-position="0">
               <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -87,8 +98,8 @@
       <file leaf-file-name="IntentSchema.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IntentSchema.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -135,19 +146,20 @@
         <option value="$PROJECT_DIR$/PowerCo3.py" />
         <option value="$PROJECT_DIR$/../cityProcessor/zipcode-sample.json" />
         <option value="$PROJECT_DIR$/../cityProcessor/zipcodeCsvToJson.py" />
-        <option value="$PROJECT_DIR$/DeployAlexaCorpStats.sh" />
-        <option value="$PROJECT_DIR$/AlexaCorpStats.py" />
-        <option value="$PROJECT_DIR$/DeploySalesBriefing.sh" />
         <option value="$PROJECT_DIR$/salesFigures.txt" />
-        <option value="$PROJECT_DIR$/SalesBriefing.py" />
         <option value="$PROJECT_DIR$/message.txt" />
+        <option value="$PROJECT_DIR$/AlexaCorpStats.py" />
         <option value="$PROJECT_DIR$/deployment-notes.txt" />
+        <option value="$PROJECT_DIR$/DeployAlexaCorpStats.sh" />
+        <option value="$PROJECT_DIR$/walmart_salesFigures.txt" />
+        <option value="$PROJECT_DIR$/DeploySalesBriefing.sh" />
+        <option value="$PROJECT_DIR$/SalesBriefing.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1203" />
     <option name="height" value="717" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -189,22 +201,22 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AlexaCorpStats" />
+              <option name="myItemId" value="SalesBriefing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AlexaCorpStats" />
+              <option name="myItemId" value="SalesBriefing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cityProcessor/zipcodeCsvToJson.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -230,6 +242,17 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PowerCoAPITest.py" />
       <option name="PARAMETERS" value="http://localhost:8080/RESTTest/api/accounts/1" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -446,10 +469,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="717" extended-state="6" />
+    <frame x="0" y="23" width="1203" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22028263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22240527" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -601,13 +624,6 @@
     <entry file="file://$PROJECT_DIR$/PowerCo-old.py" />
     <entry file="file://$PROJECT_DIR$/debugme.py" />
     <entry file="file://$PROJECT_DIR$/DateScratchpad.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PowerCo.py.old" />
     <entry file="file://$PROJECT_DIR$/../cityProcessor/zipcode-sample.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,58 +650,43 @@
     <entry file="file://$PROJECT_DIR$/PowerCoAPITest.py" />
     <entry file="file://$PROJECT_DIR$/PowerCo.py" />
     <entry file="file://$PROJECT_DIR$/PowerCo2.py" />
-    <entry file="file://$PROJECT_DIR$/security-notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PowerCo3.py" />
-    <entry file="file://$PROJECT_DIR$/DeployAlexaCorpStats.sh">
+    <entry file="file://$PROJECT_DIR$/AlexaCorpStats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeploySalesBriefing.sh" />
-    <entry file="file://$PROJECT_DIR$/deployment-notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="96" lean-forward="false" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalesBriefing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2685">
-          <caret line="184" column="55" lean-forward="false" selection-start-line="184" selection-start-column="55" selection-end-line="184" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/walmart_salesFigures.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        <state relative-caret-position="30">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IntentSchema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -698,10 +699,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlexaCorpStats.py">
+    <entry file="file://$PROJECT_DIR$/message.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="127" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeployAlexaCorpStats.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="143" lean-forward="false" selection-start-line="6" selection-start-column="143" selection-end-line="6" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="96" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/walmart_salesFigures.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeploySalesBriefing.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalesBriefing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="170" column="22" lean-forward="false" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
           <folding />
         </state>
       </provider>
