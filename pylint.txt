@@ -1,0 +1,133 @@
+************* Module SalesBriefing
+C: 22, 0: Line too long (116/100) (line-too-long)
+C: 22, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C: 44, 0: Line too long (123/100) (line-too-long)
+C: 52, 0: Line too long (105/100) (line-too-long)
+C:119, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  9,26: Unused argument 'context' (unused-argument)
+W: 42,48: Unused argument 'session' (unused-argument)
+W: 42,23: Unused argument 'session_started_request' (unused-argument)
+C: 49, 0: Missing function docstring (missing-docstring)
+W: 49,14: Unused argument 'launch_request' (unused-argument)
+W: 49,30: Unused argument 'session' (unused-argument)
+C: 59, 0: Missing function docstring (missing-docstring)
+C: 73, 0: Missing function docstring (missing-docstring)
+R: 73, 0: Too many local variables (22/15) (too-many-locals)
+C: 82, 4: Invalid variable name "walmart_salesFigures_key" (invalid-name)
+C: 84, 4: Invalid variable name "s3" (invalid-name)
+C: 93, 4: Invalid variable name "walmartSales" (invalid-name)
+C: 94, 4: Invalid variable name "targetSales" (invalid-name)
+C: 95, 4: Invalid variable name "rubbermaiddotcomSales" (invalid-name)
+C: 96, 4: Invalid variable name "homedepotSales" (invalid-name)
+C: 97, 4: Invalid variable name "publixSales" (invalid-name)
+C: 99, 4: Invalid variable name "usEastSales" (invalid-name)
+C:100, 4: Invalid variable name "usCentralSales" (invalid-name)
+C:101, 4: Invalid variable name "usWestSales" (invalid-name)
+C:116, 4: Invalid variable name "strToday" (invalid-name)
+C:137, 0: Missing function docstring (missing-docstring)
+C:151, 0: Missing function docstring (missing-docstring)
+C:176, 0: Missing function docstring (missing-docstring)
+
+
+Report
+======
+73 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |8      |8          |=          |25.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    boto3 (SalesBriefing)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |83     |45.60 |83       |=          |
++----------+-------+------+---------+-----------+
+|docstring |22     |12.09 |27       |-5.00      |
++----------+-------+------+---------+-----------+
+|comment   |26     |14.29 |23       |+3.00      |
++----------+-------+------+---------+-----------+
+|empty     |51     |28.02 |50       |+1.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |23     |23       |=          |
++-----------+-------+---------+-----------+
+|refactor   |1      |1        |=          |
++-----------+-------+---------+-----------+
+|warning    |5      |6        |-1.00      |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------+------------+
+|message id         |occurrences |
++===================+============+
+|invalid-name       |11          |
++-------------------+------------+
+|missing-docstring  |7           |
++-------------------+------------+
+|unused-argument    |5           |
++-------------------+------------+
+|line-too-long      |4           |
++-------------------+------------+
+|too-many-locals    |1           |
++-------------------+------------+
+|superfluous-parens |1           |
++-------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 6.03/10 (previous run: 5.95/10, +0.08)
+
