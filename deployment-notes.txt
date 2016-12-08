@@ -1,0 +1,27 @@
+1. Update AlexaCorpStats.py Python code
+The handler (in Lambda configuration) must be PowerCo2.lambda_handler
+
+2. Create a deployment package
+We aren't using any special libraries, so we can just create a zip file with the Python code
+
+zip SalesBriefing-deployment.zip SalesBriefing.py
+
+3. Update and publish the Lambda function
+aws --profile dixonaws@amazon.com lambda update-function-code --function-name AlexaCorpStats --zip-file fileb://AlexaCorpStats-deployment.zip --publish
+
+This will immediately update the Lambda function
+
+//todo create web service that returns a list of invoices for an account number
+done
+
+//todo create a codepipeline that zips and publishes the code when it is pushed to github
+
+//todo git integration sends a message to a slack channel (done)
+
+//todo jenkins integration sends a message once Lambda function is published
+curl -X POST --data-urlencode 'payload={"channel": "#fpl-alexa", "username": "aws_codepipeline", "text": "PowerCo2 v1.4 has been tested and updated in Lambda."}' https://hooks.slack.com/services/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
+
+aws --profile dixonaws@amazon.com lambda update-function-code --function-name PowerCo3 --zip-file fileb://PowerCo3-deployment.zip --publish
+
+// copy a new message to the right s3 bucket
+aws --profile dixonaws@amazon.com s3 cp message.txt s3://salesbriefing-data/ --acl "public-read"

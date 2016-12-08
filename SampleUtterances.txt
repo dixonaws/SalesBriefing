@@ -1,0 +1,11 @@
+AccountCommand show me some {AnAccountCommand}
+AccountCommand Please show me {AnAccountCommand}
+AccountCommand {AnAccountCommand}
+GetAccount {Account}
+GetAccount Account number {Account}
+GetAccount number {Account}
+GetAccount what is the amount due for {Account}
+GetAccount what is the current amount due for {Account}
+GetAccount what is the amount due for account {Account}
+GetAccount what is the amound due for account number {Account}
+VerifyPIN {PIN}
