@@ -34,11 +34,6 @@ def lambda_handler(event, context):
         print("Launch requested...")
         return on_launch(event['request'], event['session'])
 
-
-    elif event['request']['type'] == "IntentRequest":
-        print("Intent requested...")
-        return on_intent(event['request'], event['session'])
-
     elif event['request']['type'] == "SessionEndedRequest":
         print("SessionEnd requested...")
         return on_session_ended(event['request'], event['session'])
@@ -61,67 +56,6 @@ def on_launch(launch_request, session):
     # Dispatch to your skill's launch
 
     return get_welcome_response()
-
-
-# ------------------------- on_intent()
-
-def on_intent(intent_request, session):
-    # Called when the user specifies an intent for this skill
-
-    print("on_intent requestId=" + intent_request['requestId'] + ", sessionId=" + session['sessionId'])
-
-    # intent_request is a Python dict object
-    intent = intent_request['intent']
-    intent_name = intent_request['intent']['name']
-
-    print("*** on_intent: I received intent=" + str(intent));
-    print("*** on_intent: I received intent_name=" + str(intent_name));
-
-    # Dispatch to your skill's intent handlers
-    if intent_name == "VerifyPIN":
-        return verifyPIN(intent, session)
-    elif intent_name == "MainMenu":
-        return mainMenu(intent, session)
-    elif intent_name == "GetAccount":
-        return getAccount(intent, session)
-    elif intent_name == "AccountCommand":
-        return getAccountCommand(intent, session)
-    elif intent_name == "AMAZON.HelpIntent":
-        return get_welcome_response()
-    elif intent_name == "AMAZON.CancelIntent" or intent_name == "AMAZON.StopIntent":
-        return handle_session_end_request()
-    else:
-        raise ValueError("Invalid intent")
-
-
-# ------------------------- verifyPIN()
-
-def verifyPIN(intent, session):
-    # We hardcode the matching PIN for now
-    intCorrectPIN = 9876
-
-    print("*** verifyPIN: I received intent " + str(intent));
-
-    # Grab the PIN out of the intent and cast it to an integer
-    PIN = intent['slots']['PIN']['value']
-    intReceivedPIN = int(PIN)
-
-    print("*** verifyPIN: I received PIN " + str(PIN))
-
-    card_title = "Welcome"
-
-    # Compare the PIN we received with the correct PIN
-    if (intReceivedPIN == intCorrectPIN):
-        return mainMenu()
-
-    elif (intReceivedPIN != intCorrectPIN):
-        speech_output = "Hmmm. That PIN code doesn't match my records";
-
-    # Setting this to true ends the session and exits the skill.
-    should_end_session = True
-
-    return build_response({}, build_speechlet_response(
-        card_title, speech_output, None, should_end_session))
 
 
 def on_session_ended(session_ended_request, session):
@@ -181,7 +115,7 @@ def get_welcome_response():
     card_content += "US West: " + str(usWestSales)
 
     speech_output = "<speak>"
-    speech_output+= "<s>Here's your Ack mee Co sales briefing for today, Thursday, December 8. <break time=\"1s\"/></s>"
+    speech_output+= "<s>Here's your Ack mee Co sales briefing for today.<break time=\"1s\"/></s>"
     speech_output+="<s>Top three retail sales yesterday: </s>"
     speech_output+="<s>Walmart: " + str(walmartSales) + " dollars.</s>"
     speech_output += "<s>Target: " + str(targetSales) + " dollars.</s>"
@@ -201,6 +135,7 @@ def get_welcome_response():
 
 def handle_session_end_request():
     card_title = "Session Ended"
+    card_content="Session Ended"
     speech_output = "Thank you for being an Acme Co customer." \
                     "Have a nice day! "
 
